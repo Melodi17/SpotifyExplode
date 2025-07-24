@@ -9,13 +9,7 @@
 </p>
 
 **SpotifyExplode** is a library that provides an interface to query metadata of Spotify tracks, playlists, albums, artists and users as well as to download audio.
-
-### 🌟STAR THIS REPOSITORY TO SUPPORT THE DEVELOPER AND ENCOURAGE THE DEVELOPMENT OF THIS PROJECT!
-
-
-## Install
-
-- 📦 [NuGet](https://nuget.org/packages/SpotifyExplode): `dotnet add package SpotifyExplode`
+> This is a fork that patches the authentication method!
 
 ## Usage
 
