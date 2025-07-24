@@ -30,7 +30,7 @@ internal class SpotifyHttp(HttpClient http)
         
         using var request = new HttpRequestMessage(
             HttpMethod.Get,
-            $"https://open.spotify.com/api/token?reason=init&productType=web-player&totp={totp}&totpServer={totp}&totpVer=18"
+            $"https://open.spotify.com/api/token?reason=transport&productType=app&totp={totp}&totpServer={totp}&totpVer=18"
         );
 
         var tokenJson = await http.ExecuteAsync(request, cancellationToken);
