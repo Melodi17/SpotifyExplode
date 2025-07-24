@@ -9,4 +9,8 @@
     <ProjectReference Include="..\SpotifyExplode\SpotifyExplode.csproj" />
   </ItemGroup>
 
+  <ItemGroup>
+    <PackageReference Include="Otp.NET" Version="1.4.0" />
+  </ItemGroup>
+
 </Project>
